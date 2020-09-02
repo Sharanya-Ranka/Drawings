@@ -391,5 +391,5 @@ def rotatingcube(x,y):
         
 	
         
-turtle.onscreenclick(mandelbrot)	
+turtle.onscreenclick(make_tower)	
 
