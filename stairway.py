@@ -100,48 +100,6 @@ def stairway2(x, y):
         myWin.update()
 
 
-    # start = t1.pos()
-    # # coord_list.append(t1.pos())
-    #
-    # for i in range(sides):
-    #     t1.forward(d_in)
-    #     if i == 0:
-    #         start = (t1.pos())
-    #     coord_list.append(t1.pos())  ##(t1.pos()[0]+st_x,t1.pos()[0]+st_y)
-    #     t1.forward(250 - d_in)
-    #     t1.left(360 / sides)
-    # coord_list.append(start)
-    # i = 0
-    # d=d_in
-    # while (True):
-    #     if d <= 0.1:
-    #         break
-    #     t1.setpos(coord_list[0][0], coord_list[0][1])
-    #     # time.sleep(1)
-    #     for j in range(sides):
-    #         del_x = coord_list[j + 1][0] - coord_list[j][0]
-    #         del_y = coord_list[j + 1][1] - coord_list[j][1]
-    #         den = math.sqrt(del_x ** 2 + del_y ** 2)
-    #         del_x = del_x / den
-    #         del_y = del_y / den
-    #         dis = t1.distance(coord_list[j + 1])
-    #
-    #         t1.setpos(coord_list[j][0] + del_x * d, coord_list[j][1] + del_y * d)
-    #         coord_list[j] = t1.pos()
-    #         if j == 0:
-    #             start = t1.pos()
-    #         t1.setpos(coord_list[j][0] + del_x * (dis - d), coord_list[j][1] + del_y * (dis - d))
-    #         # time.sleep(1)
-    #         if j == sides - 1:
-    #             coord_list[j + 1] = start
-    #
-    #     i += 1
-    #     d=d*decay
-
-    # time.sleep(1)
-    print(coord_list)
-    i = 0
-    n = 100
 
 turtle.onscreenclick(stairway2)
 turtle.mainloop()
